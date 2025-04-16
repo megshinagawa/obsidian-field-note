@@ -1,0 +1,31 @@
+# Field Notes Configuration
+
+# Obsidian Vault Settings
+vault:
+  # Path to your Obsidian vault
+  # Default locations:
+  # - Windows: ~/Documents/Obsidian
+  # - macOS/Linux: ~/Obsidian
+  path: ~/Obsidian/megs-field-notes
+
+# Date and Time Formatting
+datetime:
+  # Date format for daily notes (strftime format)
+  date_format: "%Y%m%d"
+  # Time format for field notes (strftime format)
+  time_format: "%H:%M:%S"
+  # Daily note title format
+  daily_note_title: "{date}"
+
+# File Structure
+files:
+  # Directory name for daily notes
+  daily_notes_dir: "01_daily"
+  # File extension for notes
+  extension: ".md"
+
+# Note Formatting
+notes:
+  # Template for field note entries
+  # Available variables: {time}, {content}
+  template: "`{time}` {note_type}\n{content}\n"
