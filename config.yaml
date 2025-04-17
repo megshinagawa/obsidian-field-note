@@ -15,7 +15,7 @@ datetime:
   # Time format for field notes (strftime format)
   time_format: "%H:%M:%S"
   # Daily note title format
-  daily_note_title: "{date}"
+  daily_note_title: "{date}\n"
 
 # File Structure
 files:
@@ -28,4 +28,4 @@ files:
 notes:
   # Template for field note entries
   # Available variables: {time}, {content}
-  template: "`{time}` {note_type}\n{content}\n"
+  template: "`{time}` {note_type} {content}\n"
